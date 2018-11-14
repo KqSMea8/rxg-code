@@ -1,0 +1,80 @@
+function cartList(ihtmlId,sFhash,rId)
+{ 
+	var listPost='';
+	listPost="&fhash="+sFhash+"&extAct=cartList";
+	if(rId>0)
+	{
+		listPost = listPost +'&rand='+Math.random();
+	}
+
+	 results = publicAjax('post','cartshop.php',listPost);
+
+	 document.getElementById(ihtmlId).innerHTML= results;
+} 
+
+//新增 
+function cartAdd(iId,iNum,sFhash)
+{ 
+	var listPost='';
+	listPost="&fhash="+sFhash+"&extAct=CartAdd&prId="+iId+"&prdNum="+iNum;
+	if(parseInt(iNum)>999)
+	{
+		alert("每种产品最多只可以购999个");
+		return false;
+	}
+	var results = publicAjax('post','cartshop.php',listPost);
+
+	if(results>10)
+	{
+		$iNUm = results-10;
+		alert("限时抢购库存数为"+$iNUm +"，超出库存数后价格恢复为正常价格");
+	}
+	return true; 
+}
+
+//修改 
+function cartMod(iId,iNum,sFhash)
+{ 
+	var listPost='';
+	if(parseInt(iNum)>999)
+	{
+		alert("每种产品最多只可以购999个");
+		return false;
+	}
+	listPost="&fhash="+sFhash+"&extAct=CartMod&prId="+iId+"&prdNum="+iNum;
+
+	var results = publicAjax('post','cartshop.php',listPost);
+		alert(results);
+	if(results>10)
+	{
+		$iNUm = results-10;
+		alert("限时抢购库存数为"+$iNUm +"，超出库存数后价格恢复为正常价格");
+	}
+	return true; 
+}
+
+//删除 
+function cartDel(iId,sFhash,iFlg)
+{ 
+	var listPost='';
+	listPost="&fhash="+sFhash+"&extAct=cartDel&prId="+iId;
+	var results = publicAjax('post','cartshop.php',listPost);
+	if(iFlg!=1)
+	{
+		setTimeout("location.reload()",1000);
+	}
+	return true; 
+}
+
+//汇总 
+function cartSum(sHtmlName,ihtmlId,sFhash,iId)
+{ 
+	var listPost='';
+	listPost="&fhash="+sFhash+"&extAct=cartSum&prId="+iId;
+	var sResult = publicAjax('post','cartshop.php',listPost);
+
+	results=sResult.split("|");
+
+	document.getElementById(sHtmlName).innerHTML= results[ihtmlId];
+	return true; 
+}

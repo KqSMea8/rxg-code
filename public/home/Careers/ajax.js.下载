@@ -1,0 +1,58 @@
+/**
+ * 作用：无刷新获取记录
+ * 作者：张新庭
+ */
+var xmlHttp
+
+function createXMLHttp(){
+	try{
+		xmlHttp=new XMLHttpRequest();
+	}catch (e){
+		try{
+			  xmlHttp=new ActiveXObject("Msxml2.XMLHTTP");
+		  }catch (e){
+			  xmlHttp=new ActiveXObject("Microsoft.XMLHTTP");
+		  }
+    }
+  return xmlHttp;
+}
+
+
+
+//执行Ajax
+function publicAjax(getType,sUrl,listPost){
+	createXMLHttp();
+  var send_string = listPost;
+	var ajaxVar=null;
+	xmlHttp.open(getType,sUrl,false);
+	xmlHttp.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+	xmlHttp.send(send_string);
+
+	ajaxVar = xmlHttp.responseText;
+	//alert(ajaxVar);
+	return ajaxVar;
+}
+
+
+
+//执行Ajax
+function publicXmlAjax(getType,sUrl,listPost){
+	createXMLHttp();
+ 	var send_string = listPost;
+
+	xmlHttp.open(getType,sUrl,false);
+	xmlHttp.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+	xmlHttp.send(send_string);
+
+	if (xmlHttp.readyState == 4){ 
+		if (xmlHttp.status == 200){ 
+		alert(xmlHttp.responseText);
+			var ajaxVar = xmlHttp.responseXML;
+			alert(ajaxVar.xml)
+//alert(ajaxVar.getElementsByTagName("cartId").length)
+			
+			
+		} 
+	} 
+	return ajaxVar;
+}

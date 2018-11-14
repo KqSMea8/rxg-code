@@ -1,0 +1,7 @@
+.main{display:none;width: 100%;border-bottom:1px solid #e5e5e5;border-top:1px solid #e5e5e5;background-color: #f5f5f5;margin-top: 8px;overflow: hidden;}
+.main  div{width:31%;height: 120px; float:left; text-align:center; display:inline;background-color: #fff;box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;}
+.main  div .tit{font-size:14px;font-weight: bold;padding-top:5%;display:-moz-inline-box; display:inline-block;}
+.main  div img{width:84%;height:83px;padding-top:5%;padding-bottom:3%;overflow:hidden;}
+.main  .show:nth-child(1){margin-left:1.5%;margin-right:1%;color:#FFAE2F;}
+.main  .show:nth-child(2){margin-left:1%;margin-right:1%;color:#FC6868; }
+.main  .show:nth-child(3){margin-left:1%;margin-right:1.5%;color:#9DD667;}

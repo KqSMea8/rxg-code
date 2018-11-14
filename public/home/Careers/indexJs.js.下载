@@ -1,0 +1,276 @@
+function RemainTime(sCid,iTime)
+{
+	var iDay,iHour,iMinute,iSecond;
+	var sDay="",sHour="",sMinute="",sSecond="",sTime="";
+	if (iTime >= 0)
+	{
+		iDay = parseInt(iTime/24/3600);
+		if (iDay > 0)
+		{
+			sDay = "<strong class='c_red'>"+iDay + "</strong>天";
+		}
+		iHour = parseInt((iTime/3600)%24);
+		if (iHour > 0){
+			sHour = "<strong class='c_red'>"+iHour + "</strong>小时";
+		}
+		iMinute = parseInt((iTime/60)%60);
+		if (iMinute > 0){
+			sMinute = "<strong class='c_red'>"+iMinute + "</strong>分";
+		}
+		iSecond = parseInt(iTime%60);
+		if (iSecond >= 0){
+			sSecond = "<strong class='c_red'>"+ iSecond + "</strong>秒";
+		}
+		if ((sDay=="")&&(sHour=="")){
+			sTime= sMinute+sSecond;
+		}
+		else
+		{
+			sTime=sDay+sHour+sMinute+sSecond;
+		}
+		
+		iTime=iTime-1;
+		if(iTime==0){
+			  clearTimeout(0);
+			  sTime="已结束！";
+		}
+		else
+		{
+			// alert(iTime);
+			setTimeout("RemainTime('"+sCid+"',"+iTime+")",1000);
+		}
+		
+
+	}
+	else
+	{
+			sTime="已结束";
+	}
+
+	document.getElementById(sCid).innerHTML = sTime;
+}
+
+function  bestChk(sName,Id)
+{
+strName = document.getElementById(sName).getElementsByTagName('li');
+for(var ii=0;ii<strName.length;ii++)
+{
+	if(ii%2!=0)
+	{
+		//strName.item(ii).style.display="block";
+	}else
+	{
+		if(ii==Id)
+		{
+
+		  strName.item(ii).style.display="none";
+		  ii++;
+		  strName.item(ii).style.display="block";
+		}else
+		{
+		  strName.item(ii).style.display="block";
+		  strName.item(ii+1).style.display="none";
+		}
+	}
+
+}
+}
+
+
+function IndexBlock(sId,sTagId)
+{
+	document.getElementById(sId).style.display = "block";
+	sTagId.className = "current";
+	return true;
+}
+
+function IndexNone(spId,sTagId)
+{
+
+	document.getElementById(spId).style.display = "none";
+	document.getElementById(sTagId).className ='';
+	return true;
+}
+
+function BlockNone(spId)
+{
+	strBlock = document.getElementById(spId).style.display;
+	if(strBlock=="none")
+	{
+		document.getElementById(spId).style.display ="block";
+	}else
+	{
+		document.getElementById(spId).style.display ="none";
+	}
+	return true;
+}
+
+
+function DisplayNone(spId)
+{
+	document.getElementById(spId).style.display = "none";
+	return true;
+}
+
+function Displayblock(spId)
+{
+	document.getElementById(spId).style.display = "block";
+	return true;
+}
+//专车专用
+function carMenu(spId,sTagId)
+{
+	if(document.getElementById(spId).className=="p1")
+	{
+		document.getElementById(spId).className="p2";
+		document.getElementById(sTagId).className ='p22';
+	}else
+	{
+		document.getElementById(spId).className="p1";
+		document.getElementById(sTagId).className ='p11';
+	}
+
+	return true;
+}
+
+//获取Url参数
+function GetRequest() {
+   var url = location.search;
+
+   if (url.indexOf("?") != -1) {
+      strs = url.split("&");
+		urlList =new Array(strs.lengt);
+	  for(ii=0;ii<strs.length;ii++)
+	  {
+		  tempUrl = strs[ii].split("=");
+		 urlList[ii] =tempUrl[1];
+	  }
+   }
+   return urlList;
+}
+
+
+function commentChk(iGid,sUrl)
+{
+	var listPost;
+	sSubject = document.getElementById('subjects').value;
+	sContents = document.getElementById('contents').value;
+	if(sSubject=="")
+	{
+		alert('标题不能为空');
+		return false;
+	}
+
+	if(sContents=="" && sContents.length<20)
+	{
+		alert('内容不能为空');
+		return false;
+	}
+
+	listPost = "extAct=order&fhash="+strFhash+"&operId="+iGid; 
+	bakFlag = publicAjax('post','comment.php',listPost);
+
+	switch(bakFlag)
+	{
+		case '1':
+				alert('你已购买产品，请试用一段时间再作评论！');
+				return false;
+			break;
+		case '2':
+			alert('你还未购买此产品，无权对此产品进行评论！');
+			return false;
+			break;
+		case '8':
+			if(confirm('您还未登陆，登录后再发表评论\n\n是否登录？')){
+				location.href="login.php?url="+sUrl;
+			}
+			return false;
+			break;
+		default:
+			document.getElementById('orderNo').value =bakFlag;
+	}
+	
+	listPost = "extAct=comment&fhash="+strFhash+"&operId="+iGid; 
+	bakFlag = publicAjax('post','comment.php',listPost);
+	if(bakFlag=="1")
+	{
+		alert('你已对此产品已评论过！');
+		return false;
+	}
+	return true;
+}
+
+
+//评论检测
+function ReplayChk(sUrl)
+{
+	var listPost;
+	sContents = document.getElementById('contents').value;
+	if(sContents=="" && sContents.length<20)
+	{
+		alert('内容不能为空');
+		return false;
+	}
+	
+	listPost = "extAct=replychk&fhash="+strFhash; 
+	bakFlag = publicAjax('post','reply.php',listPost);
+	alert(bakFlag);
+	if(bakFlag==8)
+	{
+		if(confirm('您还未登陆，登录后再发表评论\n\n是否登录？'))
+		{
+			location.href="login.php?url="+sUrl;
+			return false;
+		}
+	}
+		
+
+
+	
+	
+	return true;
+}
+
+
+//评论问答
+function askChk()
+{
+	var listPost;
+	sContents = document.getElementById('contents').value;
+	if(sContents=="" && sContents.length<20)
+	{
+		alert('内容不能为空');
+		return false;
+	}
+	listPost = "extAct=loginchk&fhash="+strFhash; 
+	bakFlag = publicAjax('post','ask.php',listPost);
+	if(bakFlag=='8')
+	{
+		if(confirm('您还未登陆，登录后才能发表咨询\n\n是否登录？')){location.href="login.php";}
+		return false;
+	}
+	return true;
+}
+
+
+//收藏
+function FavoritesAdd(iGid,sUrl)
+{
+	var listPost='';
+	listPost = "extAct=Favorites&fhash="+strFhash+"&operId="+iGid; 
+	bakFlag = publicAjax('post','Favorites.php',listPost);
+  
+	if(bakFlag==8)
+	{
+		if(confirm('您还未登陆，登录后才可以收藏产品\n\n是否登录？')){location.href="login.php?url="+sUrl;}
+		return false;
+	}
+	if(bakFlag=='1')
+	{
+		alert('产品收藏成功！');
+	}else
+	{
+		alert('你已收藏过些产品，请到个人中心查看！');
+	}
+	return true;
+}

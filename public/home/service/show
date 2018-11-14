@@ -1,0 +1,966 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wb="http://open.weibo.com/wb">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name ="keywords"  content="自由购商城,ziygou.com,龙岩市大数据电子商务有限公司,信用"  />
+<meta name ="description"  content="凭安信用为您提供关于自由购商城\ziygou.com的网站信用信息，包括主办单位{主办单位名称}的身份信息、企业日常的经营情况、获得的行政许可和荣誉资质、网站安全及网友评论情况等。"  />
+<title>自由购商城|ziygou.com网站信用 - 凭安信用</title>
+
+<link href="/style/style.css" rel="stylesheet" type="text/css" />
+<link href="/style/startcss.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/platform/jquery/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="/js/platform/jquery.mCustomScrollbar.concat.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/js/platform/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
+<link rel="stylesheet" type="text/css" href="/js/platform/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.7" />
+<link href="/style/jquery.mCustomScrollbar.min.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/jquery.slider.js"></script>
+<style>
+	<!--
+	body,div,html,p,a,img,span,h2,h3,h4,ul,li,a,img,em{margin:0px;padding:0; }
+	body{font-family:"微软雅黑",Arial, Helvetica, sans-serif; font-size:14px;background:#fff;color:#444;}
+	h2,h3,h4,p,span,em{ font-style:normal; font-weight:normal;}
+	img{ border:0;}
+	a{text-decoration:none;}
+	input{font-family:"微软雅黑",Arial, Helvetica, sans-serif;}
+	ul,li{ list-style:none;}
+	
+	.accede{ width:648px;}
+	.accede-padding{ padding:0 22px;}
+	.qua-content{margin:25px 0 20px;width:100%; overflow:hidden;}
+	
+	.qua-honor{ position:relative; height:135px; width:100%; float:left;}
+	.qua-honor-left{ float:left; display:inline-block; position:absolute; width:15px; padding-top:37px; z-index:99;}
+	.qua-honor-img{height:100px; position:absolute; z-index:0;}
+	.qua-honor-img li{ float:left; width:125px; height:78px; border:1px solid #eee; padding:10px; margin-right:35px; text-align:center;}
+	.qua-honor-img li img{ max-width:128px; max-height:78px; min-height:78px; min-width:128px;}
+	.qua-honor-img li p{ margin-top:10px; text-align:center; color:#666; float:none;}
+	.qua-honor-right{ float:right; padding-top:37px; z-index:99; position: absolute; right:-32px;}
+	.txt-right-new{height:24px;line-height:24px;width:100%; border-bottom:1px dashed #ccc;}
+	.txt-right-new p{float:right; padding:0 5px; border:1px dashed #cccccc; border-bottom:none;color:#7f7f7f; font-size:12px;}
+	.txt-right-new p a{ color:#3eb3f5;}
+	-->
+	li{list-style: none}
+	/*水平滚动样式*/
+	.slider-box{height:145px;width: 580px;margin: 30px auto;}
+	.slider-btn{height: 50%;float: left;width: 30px;background-image: url("/images/ico1_bg.gif");background-repeat: no-repeat;text-indent: -9999px}
+	.slider-next{background-position:-157px 30px }
+	.slider-prev{background-position:-97px 30px }
+	.slider-next:hover{background-position:-49px 30px }
+	.slider-prev:hover{background-position:6px 30px }
+	.slider-wrapper{height: 100%;position: relative;width:500px;float: left;overflow:hidden;}
+	.slider-wrapper ul{position: absolute;height: 100%;width: 800px;}
+	.slider-wrapper li{float:left;border:1px solid #eee;height:78px;margin-right:22px;padding: 10px;position: relative; text-align: center; width: 128px;}
+	.slider-wrapper li img{border: none;max-height:82px; max-width:128px; min-height:82px; min-width:128px;}
+	.slider-wrapper li p{color: #666;float: none;margin-top:7px;text-align: center;}
+</style>
+<style type="text/css">
+.credit-chart-event-a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.credit-chart-event-a:hover{
+	text-decoration: underline;
+}
+.testtttttt{
+ 	background-image: url("/images/share.png");
+}
+.borrower {
+	background: url(/images/borrower/borrower.jpg) no-repeat 0 0;
+	position: fixed;
+	_position: absolute;
+	left: 50%;
+	margin-left: 382px;
+	display: block;
+	width: 140px;
+	height: 300px;
+	z-index: 3000;
+	text-indent: -9999em;
+}
+.financing {
+	background: url(/images/financing/vc-img.png) no-repeat 0 0;
+	position: fixed;
+	_position: absolute;
+	right: 50%;
+	margin-right: 382px;
+	display: block;
+	width: 140px;
+	height: 300px;
+	z-index: 3000;
+	text-indent: -9999em;
+}
+</style>
+</head>
+<body>
+
+
+
+
+
+<div class="nav">
+    	<div class="nav-menu">
+			<div class="nav-left">
+	        	<div style="float: left;" >
+		        	欢迎来到凭安信用！<img src="/images/phone.jpg" />服务热线：4006-173-173
+		        	<a style="text-decoration: none;" href="http://shang.qq.com/wpa/qunwpa?idkey=b64cc020bbe29729174d276266e76cdbd0dc4cc11e18fd846eb17b73de446106"  target="_blank"><img src="/images/qq.jpg" />QQ交流群：282691728</a>
+	        	</div>
+	        	<div style="float: left;" >
+	        		<ul>
+	        			<li onmouseout="javascript:document.getElementById('qr_weixin').style.display='none';"
+		        			onmouseover="javascript:document.getElementById('qr_weixin').style.display='';" style="cursor: pointer;" >
+	        				<img src="/images/erweima.jpg" />微信公众号
+		        	</li>
+	        		<li>
+	        			<div id="qr_weixin" style="display:none;z-index:9999;position:absolute;margin:0; padding: 0px;">
+			     			<img src="/images/pingan-weixin-public.jpg" width="200px" height="200px;" />
+			     		</div>
+	        		</li>
+	        		</ul>
+			     </div>
+	     	</div>
+            <div class="nav-right">
+            	<ul>
+            		<li><a href="/">首页</a><span>|</span></li>
+                    <li><a href="/plan.jsp">信用成长计划</a><span>|</span></li>
+                	<li><a href="/user/index.do">登录</a><span>|</span></li>
+                    <li><a href="/login.jsp?type=2">注册</a></li>
+                   <!--  <li><a href="###" onclick="AddFavorite(this.href,this.title)"  title='凭安信用' rel="sidebar">加入收藏</a></li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+<div class="banner">
+    	<div class="banner-all">
+        <a href="/"><img src="/images/credit-logo.png" /></a>
+        <div class="result-search">
+        	     <form action="/search.do"  id="searchForm"    method="post">
+		        	<input id="searchName" name="searchName" type="text" value="去看看其他网站的信用" />
+		            <a href="###" id="search"></a>
+	            </form>
+        </div>
+        </div>
+    </div>
+
+
+<script type="text/javascript">
+ $(document).ready(function(){
+	 $("#searchName").focus(function(){
+		 var oldValue = $(this).val();
+	     if(oldValue =="去看看其他网站的信用"  ||  oldValue == "请输入网址、公司名称或网站名称"){
+	         $(this).val("");
+	     }
+	 }).blur(function(){
+	     var oldValue = $(this).val();
+	     if(oldValue == ""){
+	          $(this).val(this.defaultValue);
+	     }
+	});
+
+	$("#search").click(function(){
+		 var oldValue = $("#searchName").val();
+		 var  defaultVal = document.getElementById("searchName").defaultValue;
+		 var searchNameTip = $("#resultSearchNameTip");
+		 if(searchNameTip.length == 1 && searchNameTip.text() == oldValue){
+			return;
+		 }
+		 if(oldValue == defaultVal ||oldValue == "去看看其他网站的信用"  ||  oldValue == "请输入网址、公司名称或网站名称"){
+			 $("#searchName").val("请输入网址、公司名称或网站名称");
+			 return;
+	     }
+		 //oldValue = domainURI(oldValue);
+		 oldValue = extraURI(oldValue);
+	     $("#searchName").val(oldValue);
+		 $("#searchForm").submit();
+	});
+ });
+//提取url中的域名
+ function domainURI(url){
+	 var pattern = /\.(cn\.com|com\.cn|com\.hk|com\.tw|cc\.me|net\.cn|org\.cn|gov\.cn|com|top|cn|wang|net|org|hk|xyz|co|pw|la|asia|biz|mobi|name|info|tm|tv|tel|us|tw|website|host|press|ren|site|space|online|tech|taipei|中国|公司|网络|香港|移动|商标|cc|ac|bj|sh|hk|tj|cq|he|sx|nm|ln|jl|hl|js|zj|ah|fj|jx|sd|ha|hb|hn|gd|gx|hi|sc|gz|yn|xz|sn|gs|qh|nx|xj|tw|mo)/g;
+	 var re = new RegExp(pattern)
+	 var result = url.match(re);
+	 var domain_r = "";
+	 for(var i=0;i<result.length;i++){
+		 if(domain_r.length < result[i].length){
+			 domain_r = result[i];
+		 }
+	 }
+	 arra = url.split(domain_r)[0].split(".");
+	 url = arra[arra.length-1]+domain_r;
+	 return url;
+ }
+ function extraURI(url){
+ 	if( null == url || url == undefined){
+ 		return url;
+ 	}
+ 	url = url.replace(" ","");
+ 	url = url.replace("http://","");
+ 	url = url.replace("https://","");
+ 	url = url.replace("www.","");
+ 	var colonIndex = url.indexOf(":");
+ 	if(colonIndex>0){
+ 		url = url.substring(0,colonIndex);
+ 	}
+ 	var ganIndex = url.indexOf("/");
+ 	if(ganIndex>0){
+ 		url = url.substring(0,ganIndex);
+ 	}
+ 	var arr = url.split(".");
+ 	var domain = "";
+ 	for(var i = 0;i<arr.length;i++){
+ 		domain = domain+arr[i];
+ 		if(i!=arr.length-1){
+ 			domain = domain+".";
+ 		}
+ 	}
+ 	return domain;
+ }
+ function AddFavorite(sURL, sTitle) {
+	    try {
+	        //IE
+	        window.external.addFavorite(sURL, sTitle);
+	    } catch (e) {
+	        try {
+	            //Firefox
+	            window.sidebar.addPanel(sTitle, sURL, "");
+	        } catch (e) {
+	            alert("您的浏览器不支持自动加入收藏，请手动使用Ctrl+D进行添加！", "提示信息");
+	        }
+	    }
+	}
+
+</script>
+
+
+    <!-- end banner-->
+    <div class="container">
+
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="margin-content">
+        <div class="box-top"></div>
+        <div class="box-middle">
+        <div class="box-content">
+        	<div class="box-content-left">
+                <div class="left-top">
+                    <h2>自由购商城<a style="text-decoration: none;"  href="http://ziygou.com" target="_blank"><span style="margin-left:12px;font-family: '微软雅黑';">ziygou.com</span></a></h2>
+                    <ul>
+                        <li>
+                        		<div style="position: relative; text-align: center;">
+                        			<div style="padding-top:21px;float: left;color:#7f7f7f;">信用等级：</div>
+								  		<ul class="studyplay_starBg" style="width: 185px;float: left;margin: 0;overflow: hidden;">
+								  			
+								  			<li class="studyplay_starovering" style="width:92.5px; z-index:0;"  ></li>
+								  		</ul>
+							  	 </div>
+                        </li>
+                        
+	                        <li style="margin:0 0 0 0; height:35px; line-height:56px;">
+	                        	<p style="display: inline-block;white-space: nowrap;overflow: hidden;width: 338px;">主办方：<span style="margin-left:10px;" title="龙岩市大数据电子商务有限公司" alt="龙岩市大数据电子商务有限公司">龙岩市大数据电子商务有限公司</span>
+	                        	</p>
+	                        </li>
+                        
+                    </ul>
+                    <ul>
+                        <li>
+	                        <p style="margin-right:20px;">信用成长值：<span style="font-size:18px; color:#008bd0; margin-left:0;font-family:'微软雅黑'; ">850</span></p>
+							
+	                        	<p>信用累计：<span style="font-size:18px; color:#008bd0; margin:0 3px 0 0;font-family:'微软雅黑';">40</span>个月</p>
+                         	
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="left-down">
+                    <div class="title1"><p>网站信用概述</p></div>
+                    
+
+
+
+
+
+
+
+
+
+
+
+<div class="left-tp">
+    <ul>
+    	 
+
+	         
+
+        	 
+        <li><img src="/images/survey.png" /><div class="tp-wz"><span>100</span><br /><h3>分</h3><p>安全检测</p></div></li>
+        
+    </ul>
+</div>
+					
+                    
+                </div>
+            </div>
+            <!-- end left-->
+            <div class="box-content-right">
+            	<!--<div class="right-level">&nbsp;</div>-->
+                <div class="level-wz level-top">
+                   
+                    <!-- <h2>您可能需要</h2> -->
+                    <div class="title1" style="margin-bottom:20px; width:220px;"><p style="color: white;font-weight: bold;line-height: 20px; margin-left:5px;">您可能需要</p></div>
+                        <a href="/user/index.do" ><img  src="/images/Claim.png" /></a>
+                        <a target="_blank" href="/report.jsp"><img src="/images/complaint.png" /></a>
+                        <a href="http://dianping.360.cn/impression/ziygou.com" target="_blank"><img src="/images/comment.png" /></a>
+                        
+                        <a href="javascript:window.open('http://v.t.sina.com.cn/share/share.php?title=恭喜 自由购商城 获得了凭安信用 2星半 的网站信用评级，有信用才可以放心访问哦，高信用网站还有更多保障，快来看看你常去网站的信用吧！&url='+encodeURIComponent(location.href)+'&searchPic=false&rcontent=','_blank','scrollbars=no,width=600,height=450,left=75,top=20,status=no,resizable=yes'); void 0" style="color:#000000;text-decoration:none;font-size:12px;font-weight:normal"><img src="/images/share.png" /></a>
+                    
+                </div>
+                
+            </div>
+           <!-- end right-->
+            <div class="box-content-bottom">
+            	<p>该网站信用已被查询
+            	<span style="font-size:18px; color:#008bd0;"  id="websiteQueryTimes">0</span>次 |
+            	<a href="javascript:void(0);"  id="webisteAgreedClick"><img src="/images/hands-up.png" /></a>
+            	有用(<span  id="websiteAgreedNum"  style="cursor: pointer;">0</span>) |
+            	<a href="javascript:void(0);"  id="webisteOpposedClick"><img src="/images/hands-down.png" /></a>
+            	没用(<span id="websiteOpposedNum"  style="cursor: pointer;">0</span>)</p>
+            </div>
+           <!-- end top-bottom-->
+        </div>
+        <!--end content-->
+        </div>
+        <div class="box-bottom"></div>
+        </div>	
+		
+    	
+        <!-- end content -->
+    	<input id="webisteDetailInfoWd" type="hidden"  value="4687497"/>
+        <input id="webisteDetailInfoWn" type="hidden"  value="自由购商城"/>
+        <input id="webisteDetailInfoLevel" type="hidden"  value="25"/>
+
+
+		<script type="text/javascript" src="/js/platform/highcharts/highcharts.js"></script>
+        <div class="content" style="margin-top:30px; ">
+        <div class="box1-top"></div>
+        <div class="box1-middle">
+        <div class="box-content">
+            <div class="box-content-left">
+            	<!-- 网站信用成长记录 -->
+            	<div class="box-main">
+                    <div class="title2"><p>网站信用成长记录</p></div>
+                    <div class="charts"  >
+                    	<div id="creditRecordChart" style="margin-top: 20px;">
+                    	</div>
+                    </div>
+                </div>
+                
+				<!-- 基础信息-->
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+   	 	<div class="box-main">
+				
+				
+					<div class="title2"><p>基本信息</p></div>
+					<div class="news">
+                    	<div class="news-rl"><div class="news-title"><p>网站基本信息</p></div></div>
+                        <div class="news-content">
+                            <ul>
+                                <li><p>网站名称：<span>自由购商城</span></p></li>
+								<li>
+									
+	                                		&nbsp;
+	                                
+								</li>
+
+                                <li><p>网站域名：<span>ziygou.com</span></p></li>
+                                <li><p>ICP备案号：<span >闽ICP备15006565号</span></p></li>
+                            </ul>
+                        </div>
+                        <div class="txt-right"><p>注：以上信息来源于<a href="http://www.miitbeian.gov.cn"  target = "_blank"><span>工信部ICP备案中心</span></a></p></div>
+                    </div>
+				
+                <!--end box-main  2 -->
+             
+	    </div>
+
+				 
+				<!-- 运营信息-->
+				
+				
+				
+				<!-- 老牛数据-->
+				
+				
+				
+ 				<!-- 荣誉资质-->
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  				<!-- 公共信用-->
+				
+
+
+
+
+
+      
+
+        
+        
+				 
+                <!-- 网站点评 -->
+				
+
+
+
+
+
+
+
+
+
+
+
+<div class="box-main" style="float:left;">
+	<div class="title2"><p>安全网站监测</p></div>
+	<div class="news">
+		<div class="ws-result">
+			<div class="ws-gray">
+				<span class="ws-title">网站漏洞：</span>
+				<span class="ws-content ws-content-r">无漏洞</span>
+			</div>
+			<div>
+				<span class="ws-title">虚假欺诈：</span>
+				<span class="ws-content ws-content-r">不是虚假或欺诈网站</span>
+			</div>
+			<div class="ws-gray">
+				<span class="ws-title">挂马恶意：</span>
+				<span class="ws-content ws-content-r">无挂马或恶意内容</span>
+			</div>
+			<div>
+				<span class="ws-title">恶意篡改：</span>
+				<span class="ws-content ws-content-r">网站未被篡改</span>
+			</div>
+		</div>
+		<div class="squa-img"><p>100<span>分</span></p></div>
+		<div class="txt-right"><p>注：以上信息来源于<span><a target="_blank" href="http://webscan.360.cn/index/checkwebsite?url=ziygou.com">360网站安全检测中心</a></span></p></div>
+	</div>
+</div>
+
+
+<div class="box-main" style="float:left;">
+	<div class="title2">
+		<p>网站点评
+			<span><a target="_blank" style="float:right; color:#7f7f7f; font-size:12px; margin-right:5px; margin-top:2px; height:24px; line-height:24px; text-decoration:none;" href="http://dianping.360.cn/impression/ziygou.com">+ 我要点评</a></span>
+		</p>
+	</div>
+
+	<div class="news">
+		<div class="comment">
+			<h2>网友评分：
+				<span>
+					<span style="color:#008bd0; font-size:14px; font-family:'宋体'; margin:0 3px 0 0;">0%</span>好评&nbsp;|&nbsp;
+					<span style="color:#008bd0; font-size:14px; font-family:'宋体'; margin:0 3px 0 0;">暂无</span>人点评&nbsp;|&nbsp;
+					<span style="color:#008bd0; font-size:14px; font-family:'宋体'; margin:0 3px 0 0;">暂无</span>人曝光
+				</span>
+			</h2>
+            
+            		<div>
+            			<p style="text-align: center;height:30px;padding-top:30px;">
+            				<span>该网站暂无点评</span>
+            				<span style="margin:0 20px;font-size: 14px;"><a target="_blank" style="color:#008bd0; font-size:14px; font-family:'宋体'; text-decoration: none;" href="http://dianping.360.cn/impression/ziygou.com">我要点评</a></span>
+            			</p>
+            		</div>
+            
+
+				<div class="txt-right"><p>注：以上信息来源于<a href="http://dianping.360.cn/impression/ziygou.com" target="_blank"><span style="color:#008bd0;">网站点评</span></a></p></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+				
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="box-content-r">
+<div class="level col-md-3">
+	<div class="level-grow c-news" 
+		style="display: none">
+	
+    	<div class="grow-title"><img src="/images/grow.png" />媒体报道</div>
+        <ul id="scrollBarContent-2" style="height:330px;overflow:hidden;">
+              <P class='more'>暂无相关报道</p>
+              
+        </ul>
+    </div>
+    
+    <div class="level-grow">
+    	<div class="grow-title"><img src="/images/grow.png" />信用等级说明</div>
+        <table border="0" cellpadding="0" cellspacing="0">
+        <tbody>
+            <tr >
+                <th class="star01">等级</td>
+                <th class="star02">说明</td>
+            </tr>
+            <tr>
+                <td class="star01">
+                <div style="position: relative;">
+                <ul class="studyplay_starBg_small" style="width: 60px;">
+                <li class="studyplay_starovering_small" style="width:60px; z-index:0;"  ></li>
+                </ul>
+                </div>
+                </td>
+                <td class="star02">五星神站，值得信赖</td>
+            </tr>
+            <tr>
+                <td class="star01">
+                <div style="position: relative; ">
+                <ul class="studyplay_starBg_small" style="width: 60px;">
+                <li class="studyplay_starovering_small" style="width:48px; z-index:0;"  ></li>
+                </ul>
+                </div>
+                </td>
+                <td class="star02">信用良好，可以交易</td>
+            </tr>
+            <tr>
+                <td class="star01">
+                <div style="position: relative; ">
+                <ul class="studyplay_starBg_small" style="width: 60px;">
+                <li class="studyplay_starovering_small" style="width:36px; z-index:0;"  ></li>
+                </ul>
+                </div>
+                </td>
+                <td class="star02">初步验证，可以访问</td>
+            </tr>
+            <tr>
+                <td class="star01">
+                <div style="position: relative; ">
+                <ul class="studyplay_starBg_small" style="width: 60px;">
+                <li class="studyplay_starovering_small" style="width:24px; z-index:0;"  ></li>
+                </ul>
+                </div>
+                </td>
+                <td class="star02">信用正在积累</td>
+            </tr>
+            <tr>
+                <td class="star01">
+                <div style="position: relative; ">
+                <ul class="studyplay_starBg_small" style="width: 60px;">
+                <li class="studyplay_starovering_small" style="width:12px; z-index:0;"  ></li>
+                </ul>
+                </div>
+                </td>
+                <td class="star02">信用开始起步</td>
+            </tr>
+            <tr>
+                <td class="star01">
+                <div style="position: relative; ">
+                <ul class="studyplay_starBg_small" style="width: 60px;">
+                <li class="studyplay_starovering_small" style="width:0px; z-index:0;"  ></li>
+                </ul>
+                </div>
+                </td>
+                <td class="star02">未获评级</td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+    
+    <div class="level-grow">
+        <div class="grow-title"><img src="/images/grow.png" />信用之星</div>
+        <table border="0" cellpadding="0" cellspacing="0">
+        <tbody>
+            <tr>
+                <th class="star03">网站名称</td>
+                <th class="star04">网站信用</td>
+                <th class="star05">信用值</td>
+            </tr>
+            
+					<tr>
+		                <td class="star03"><a target="_blank" href="http://c.trustutn.org/s/dangdang.com">当当网</a></td>
+		                <td class="star04">
+		                    <div style="position: relative; ">
+			                    <ul class="studyplay_starBg_small" style="width: 60px;overflow: hidden;">
+			                    	<li class="studyplay_starovering_small" style="width:48px; z-index:0;"></li>
+			                    </ul>
+		                    </div>
+		                </td>
+		            	<td class=" star05 prove">67530</td>
+            		</tr>
+            
+					<tr>
+		                <td class="star03"><a target="_blank" href="http://c.trustutn.org/s/dangdangyoupinjj.tmall.com">当当优品家居旗舰店</a></td>
+		                <td class="star04">
+		                    <div style="position: relative; ">
+			                    <ul class="studyplay_starBg_small" style="width: 60px;overflow: hidden;">
+			                    	<li class="studyplay_starovering_small" style="width:48px; z-index:0;"></li>
+			                    </ul>
+		                    </div>
+		                </td>
+		            	<td class=" star05 prove">49472</td>
+            		</tr>
+            
+					<tr>
+		                <td class="star03"><a target="_blank" href="http://c.trustutn.org/s/ddshop.tmall.com">当当网精品百货店</a></td>
+		                <td class="star04">
+		                    <div style="position: relative; ">
+			                    <ul class="studyplay_starBg_small" style="width: 60px;overflow: hidden;">
+			                    	<li class="studyplay_starovering_small" style="width:48px; z-index:0;"></li>
+			                    </ul>
+		                    </div>
+		                </td>
+		            	<td class=" star05 prove">49455</td>
+            		</tr>
+            
+					<tr>
+		                <td class="star03"><a target="_blank" href="http://c.trustutn.org/s/nsnf.tmall.com">nsnf男装旗舰店</a></td>
+		                <td class="star04">
+		                    <div style="position: relative; ">
+			                    <ul class="studyplay_starBg_small" style="width: 60px;overflow: hidden;">
+			                    	<li class="studyplay_starovering_small" style="width:48px; z-index:0;"></li>
+			                    </ul>
+		                    </div>
+		                </td>
+		            	<td class=" star05 prove">49139</td>
+            		</tr>
+            
+					<tr>
+		                <td class="star03"><a target="_blank" href="http://c.trustutn.org/s/m18.com">趣天麦网</a></td>
+		                <td class="star04">
+		                    <div style="position: relative; ">
+			                    <ul class="studyplay_starBg_small" style="width: 60px;overflow: hidden;">
+			                    	<li class="studyplay_starovering_small" style="width:48px; z-index:0;"></li>
+			                    </ul>
+		                    </div>
+		                </td>
+		            	<td class=" star05 prove">38442</td>
+            		</tr>
+            
+					<tr>
+		                <td class="star03"><a target="_blank" href="http://c.trustutn.org/s/1688.com">阿里巴巴</a></td>
+		                <td class="star04">
+		                    <div style="position: relative; ">
+			                    <ul class="studyplay_starBg_small" style="width: 60px;overflow: hidden;">
+			                    	<li class="studyplay_starovering_small" style="width:48px; z-index:0;"></li>
+			                    </ul>
+		                    </div>
+		                </td>
+		            	<td class=" star05 prove">35724</td>
+            		</tr>
+            
+					<tr>
+		                <td class="star03"><a target="_blank" href="http://c.trustutn.org/s/jd.com">京东商城</a></td>
+		                <td class="star04">
+		                    <div style="position: relative; ">
+			                    <ul class="studyplay_starBg_small" style="width: 60px;overflow: hidden;">
+			                    	<li class="studyplay_starovering_small" style="width:48px; z-index:0;"></li>
+			                    </ul>
+		                    </div>
+		                </td>
+		            	<td class=" star05 prove">35150</td>
+            		</tr>
+            
+					<tr>
+		                <td class="star03"><a target="_blank" href="http://c.trustutn.org/s/jumei.com">聚美优品</a></td>
+		                <td class="star04">
+		                    <div style="position: relative; ">
+			                    <ul class="studyplay_starBg_small" style="width: 60px;overflow: hidden;">
+			                    	<li class="studyplay_starovering_small" style="width:48px; z-index:0;"></li>
+			                    </ul>
+		                    </div>
+		                </td>
+		            	<td class=" star05 prove">32651</td>
+            		</tr>
+            
+					<tr>
+		                <td class="star03"><a target="_blank" href="http://c.trustutn.org/s/minxunsh.1688.com">上海民勋实业有限公司</a></td>
+		                <td class="star04">
+		                    <div style="position: relative; ">
+			                    <ul class="studyplay_starBg_small" style="width: 60px;overflow: hidden;">
+			                    	<li class="studyplay_starovering_small" style="width:48px; z-index:0;"></li>
+			                    </ul>
+		                    </div>
+		                </td>
+		            	<td class=" star05 prove">31883</td>
+            		</tr>
+            
+					<tr>
+		                <td class="star03"><a target="_blank" href="http://c.trustutn.org/s/gxdmsmc.ye.1688.com">产业带</a></td>
+		                <td class="star04">
+		                    <div style="position: relative; ">
+			                    <ul class="studyplay_starBg_small" style="width: 60px;overflow: hidden;">
+			                    	<li class="studyplay_starovering_small" style="width:48px; z-index:0;"></li>
+			                    </ul>
+		                    </div>
+		                </td>
+		            	<td class=" star05 prove">31882</td>
+            		</tr>
+            
+        </tbody>
+        </table>
+    </div>
+    
+</div>
+</div>
+	
+		
+          	</div>
+             <div class="box1-bottom"></div>
+        </div>
+             <div class="report">
+             
+             
+             		<p>凭安信用评级表达的是企业的信息披露程度，企业资信信息透明度越高，企业信用越高。如果信用结果存在不实信息，请您<a target="_blank" href="/report.jsp">举报</a></p>
+             
+             </div>
+
+        </div>
+         </div>
+	</div>
+	<?xml version="1.0" encoding="UTF-8" ?>
+
+        
+
+                <div class="footer">
+                <div class="footer-main">
+                    <dl class="margin-dl">
+	                    <dd>指导单位:</dd>
+	                    <dt ><a href="http://www.ceaia.org.cn/" target="_blank"><img src="/images/ceaia-logo.png" ></a></dt>
+	                    </dl>
+	                 <dl>
+	                    <dd>合作伙伴:</dd>
+	                    <dt>
+	                    	<a href="http://www.pingansec.com/" target="_blank"><img src="/images/pingan-logo.png" /></a>
+	                    	<img src="/images/tianwei-logo.png" />
+	                    	<img src="/images/logo2.png" />
+	                    	<img src="/images/logo3.png" />
+	                    	<img src="/images/logo4.png" />
+	                    	<img src="/images/logo5.png" />
+	                    	<img src="/images/logo6.png" />
+	                    	<img src="/images/logo7.png" />
+	                    	<img src="/images/logo8.png" />
+	                    	<img src="/images/logo9.png" />
+	                    	<img src="/images/logo10.png" />
+	                    	<img src="/images/logo11.png" />
+	                    </dt>
+	                    <dt>
+	                    	<span>友情链接:</span>
+	                    	<a href="http://www.xjca.com.cn"  target="_blank" title="新疆CA"  alt="新疆CA">新疆CA</a>
+	                    	<a href="http://www.szca.com.cn"  target="_blank" title="深圳CA"  alt="深圳CA">深圳CA</a>
+	                    	<a href="http://www.gxca.com.cn "  target="_blank" title="广西CA"  alt="广西CA">广西CA</a>
+	                    	<a href="http://www.pingansec.com"  target="_blank" title="凭安科技"  alt="凭安科技"  rel="nofollow">凭安科技</a>
+	                    	<a href="http://www.zx110.org"  target="_blank" title="网络社会征信网"  alt="网络社会征信网"  rel="nofollow">网络社会征信网</a>
+                            <a href="http://www.zhiziyun.com"  target="_blank" title="智子云"  alt="智子云">智子云</a>
+                            <a href="http://www.laoniushuju.com" target="_blank" title="最专业的站长流量、关键词、用户分析工具-老牛数据">老牛数据</a>
+	                    </dt>
+                    </dl>
+                    <div class="footer-credit">
+                    	<p align="center">
+			         	查看信用：
+			         		<a target="_blank" href="/sites_0_1">0</a>
+			         	
+			         		<a target="_blank" href="/sites_1_1">1</a>
+			         	
+			         		<a target="_blank" href="/sites_2_1">2</a>
+			         	
+			         		<a target="_blank" href="/sites_3_1">3</a>
+			         	
+			         		<a target="_blank" href="/sites_4_1">4</a>
+			         	
+			         		<a target="_blank" href="/sites_5_1">5</a>
+			         	
+			         		<a target="_blank" href="/sites_6_1">6</a>
+			         	
+			         		<a target="_blank" href="/sites_7_1">7</a>
+			         	
+			         		<a target="_blank" href="/sites_8_1">8</a>
+			         	
+			         		<a target="_blank" href="/sites_9_1">9</a>
+			         	
+							<a target="_blank" href="/sites_A_1">A</a> <a target="_blank" href="/sites_B_1">B</a> <a target="_blank" href="/sites_C_1">C</a>
+							<a target="_blank" href="/sites_D_1">D</a> <a target="_blank" href="/sites_E_1">E</a> <a target="_blank" href="/sites_F_1">F</a>
+							<a target="_blank" href="/sites_G_1">G</a> <a target="_blank" href="/sites_H_1">H</a> <a target="_blank" href="/sites_I_1">I</a>
+							<a target="_blank" href="/sites_J_1">J</a> <a target="_blank" href="/sites_K_1">K</a> <a target="_blank" href="/sites_L_1">L</a>
+							<a target="_blank" href="/sites_M_1">M</a> <a target="_blank" href="/sites_N_1">N</a> <a target="_blank" href="/sites_O_1">O</a>
+							<a target="_blank" href="/sites_P_1">P</a> <a target="_blank" href="/sites_Q_1">Q</a> <a target="_blank" href="/sites_R_1">R</a>
+							<a target="_blank" href="/sites_S_1">S</a> <a target="_blank" href="/sites_T_1">T</a> <a target="_blank" href="/sites_U_1">U</a>
+							<a target="_blank" href="/sites_V_1">V</a> <a target="_blank" href="/sites_W_1">W</a> <a target="_blank" href="/sites_X_1">X</a>
+							<a target="_blank" href="/sites_Y_1">Y</a> <a target="_blank" href="/sites_Z_1">Z</a>
+		          		 </p>
+                    </div>
+                   <div class="footer-info">
+			            <p><span style=" display:inline-block; margin-right:50px;">Copyright 2015 沪ICP备12039960号</span><a href="/about_us.jsp" target="_blank">关于我们</a>|<a href="/help.jsp" >帮助中心</a>|<a href="/report.jsp" target="_blank">举报中心</a></p>
+        			</div>
+                </div>
+ <div style="display: none;">
+	<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1253647061'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1253647061%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+ </div>
+<script  type="text/javascript">
+	var doc= document.getElementById("mailDocument");
+	if(typeof(doc) != "undefined" && doc != null)
+	{
+		var html = doc.innerHTML;
+		html += "<a href='mailto:cs#trustutn.org' >cs#trustutn.org</a>";
+		html = html.replace(/#/g,"@");
+		document.getElementById("mailDocument").innerHTML = html;
+	}
+
+</script>
+</div>
+
+
+
+
+<div id="notCliamInfo" class="pop-container-claim" style="width:800px; height:450px;display: none;">
+        <div class="pop-border-claim">
+        <div class="pop-close"><a href="###" id="close"><img src="/images/claim-close.png" /></a></div>
+        	<div class="pop-title"><h2><img src="/images/img2.jpg" /><p>该网站暂未获得信用评级</p></h2></div>
+            <div class="pop-btn">
+            	<p>认领网站即可获得评级</p>
+                <div align="center"><a href="/login.jsp?s=null"  target="_blank"><img src="/images/pop-btn.png" /></a></div>
+            </div>
+            <div class="pop-down">
+            	<div class="pop-l"><img src="/images/img3.jpg" /></div>
+                <div class="pop-m">
+                	<p><span>信用展示</span><i>信用达到3星半即可获得在5亿可信终端展示</i></p>
+                    <p style="border-bottom:none;"><span>低息贷款</span><i>高信用网站可获得更高额度、更低利息贷款服务</i></p>
+                </div>
+                <div class="pop-r">
+                	<p><a href="/plan.jsp"  target="_blank">了解详情</a></p>
+                  <p><a href="/borrower/borrower.jsp"  target="_blank">了解详情</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript" src="/js/platform/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="/js/platform/lightbox.js"></script>
+<script type="text/javascript">
+	var basePath = "/";
+	$(window).load(function(){
+         $("#scrollBarContent-2").mCustomScrollbar({
+         	theme:"dark-2"
+         });
+     });
+</script>
+<script type="text/javascript" src="/js/jsp/credit_detail.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		textOverHide();
+		var claimBox = new LightBox("notCliamInfo");
+		claimBox.Over = true;
+		claimBox.OverLay.Color = "#666";
+		claimBox.OverLay.Opacity = 50;
+		claimBox.Fixed = true;
+		claimBox.Box.style.left = "50%";
+		claimBox.Box.style.top = "42%";
+		//claimBox.Box.style.height="600px";
+		claimBox.Center = true;
+
+		if('null' != 'null' && ($("#webisteDetailInfoLevel").val() == "null"||$("#webisteDetailInfoLevel").val() == 0))
+		{
+			box$("close").onclick = function(){ claimBox.Close();};
+			claimBox.Show();
+		}
+		
+		$('#floatBanner').mouseenter(function(){
+			$(this).find('img').first().show();
+		}).mouseleave(function(){
+			$(this).find('img').first().hide('slow');
+		});
+		
+		$('#floatBanner').find('img').first().click(function(){
+			location.href='borrower/borrower.jsp';
+		});	
+		
+	});
+
+</script>
+
+
+
+<!-- end claim page -->
+
+</body>
+</html>

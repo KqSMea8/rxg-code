@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* 刘建华 wuyeting@163.com  2009-11-1
+请慎重修改此文件.
+*/
+
+/*全站-全局定义
+==================================================*/
+body{font:12px/1.5 Tahoma,Helvetica,Arial,'宋体',sans-serif;}
+html,legend{color:#000; background:#fff;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}
+
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:none;}
+li{list-style:none;}
+caption,th{text-align:left;}
+
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+h1{font-size:18px;}
+h2{font-size:16px;}
+h3{font-size:14px;}
+
+input,button,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+input,button,textarea,select{*font-size:100%;}
+select,input,button,textarea{font:100% Tahoma,Helvetica,Arial,sans-serif;}
+table{font-size:inherit;font:100%;}
+
+abbr,acronym{border-bottom:1px dotted;cursor:help;}
+ins{text-decoration:none;}
+del{text-decoration:line-through;}
+
+hr{color:#D1D7DC;background-color:#D1D7DC; height:1px; border:none; clear:both;}
+a{color:#222;text-decoration:none;}
+a:hover{color:#f60;text-decoration:underline;}
